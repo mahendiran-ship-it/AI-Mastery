@@ -47,5 +47,5 @@ joblib.dump(brain, 'phone_model.pkl')
 
 
 
-print(f"✅ Training Complete. Avg Error: ₹{error:.2f}")
-print("🧠 Brain saved to 'phone_model.pkl'")
+print(f"Training Complete. Avg Error: ₹{error:.2f}")
+print("Brain saved to 'phone_model.pkl'")
