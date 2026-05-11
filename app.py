@@ -31,4 +31,3 @@ if st.button("Calculate Prediction"):
     st.success(f"Predicted Selling Price: ₹{final_price:,.2f}")
     
          
-    st.balloons() 
