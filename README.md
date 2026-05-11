@@ -1,22 +1,31 @@
-# 📱 AI Mobile Marketplace 
+# 📱 AI Mobile Marketplace Predictor
 
-A Machine Learning-powered web application built entirely on a mobile device using **Termux** and **Pydroid 3**. This project predicts the resale value of used items based on age and original price.
+A Machine Learning-powered web application that predicts the resale value of used mobile phones. This project was developed 100% on a smartphone using **Termux**, **Pydroid 3**, and **GitHub**.
 
-## 🚀 Features
-* **ML Prediction:** Uses a Scikit-Learn model to estimate fair market prices.
-* **Streamlit UI:** A clean, interactive web interface running locally on Android.
-* **Mobile-First Dev:** Developed 100% on a smartphone, utilizing Termux for the server environment and Git integration.
+## 🚀 Live Demo
+[View the Live App Here] 
 
-## 🛠️ Tech Stack
-* **Language:** Python
-* **Web Framework:** Streamlit
-* **AI Libraries:** Scikit-Learn, Pandas, Joblib
-* **Tools:** Termux (Web Server & Git), Pydroid 3 (IDE)
+>>>  https://ai-mastery-tvqzgpjssk3nam97demdds.streamlit.app/  <<< 
 
-## 📈 Future Goals
-- [ ] Fully integrate the local `.pkl` model within the Termux environment.
-- [ ] Expand the dataset for diverse electronics.
-- [ ] Implement AI-powered image recognition for automated condition assessment.
+## 🛠️ Features
+- **ML Prediction:** Uses a Scikit-Learn Linear Regression model.
+- **Smart Constraints:** Implemented `max(0, prediction)` logic to ensure prices never go negative for very old devices.
+- **Interactive UI:** Built with Streamlit for a smooth mobile/desktop user experience.
+- **Mobile-First Dev:** Built entirely without a PC.
+
+## 🧰 Tech Stack
+- **Language:** Python
+- **AI Libraries:** Scikit-Learn, Pandas, Joblib
+- **Web Framework:** Streamlit
+- **Environment:** Termux (Git/Server), Pydroid 3 (IDE)
+
+## 📈 Next Steps
+- Implement Polynomial Regression for non-linear price drops.
+- Add Brand-specific data (iPhone vs Android).
 
 ---
-*Developed by Mahendiran as part of the AI Mastery path.*
+
+### 📩 Connect
+- **LinkedIn:** [Mahendiran S](https://www.linkedin.com/in/mahendiran-s-25043840a)
+- **Email:** [mahendiran007s@gmail.com](mailto:mahendiran007s@gmail.com)
+- **GitHub:** [@mahendiran-ship-it](https://github.com/mahendiran-ship-it)
