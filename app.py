@@ -1,6 +1,16 @@
 #we use streamlit to build tge interface twin
 
 import streamlit as st
+# Custom CSS to hide Streamlit header and footer
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 import joblib  
 import sklearn 
 
