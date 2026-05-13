@@ -23,29 +23,33 @@ df = pd.read_csv('marketplace_data.csv')
 
 
 #Automatic Empty data filling part
+df_encoded = pd.get_dummies(df,columns=['Brand'])
 
-df['selling_price'] = df['selling_price'].fillna(df['selling_price'].mean())
 
 #Data Assigning
 
-X = df[['age_years', 'original_price']] 
-y = df['selling_price']
+X = df_encoded.drop('Selling_Price',axis=1)
+
+y=df_encoded['Selling_Price']
 
 
-# Our Model Brain Twin
-brain = LinearRegression()
-brain.fit(X, y)
+# Our Model  Twin
+
+model = LinearRegression()
+model.fit(X, y)
 
 #Pridiction and error calculation part Twin
 
-y_pred = brain.predict(X)
-error = mean_absolute_error(y, y_pred)
+
 
 #Serialization
 
-joblib.dump(brain, 'phone_model.pkl')
+joblib.dump(model, 'phone_model.pkl')
+
+ #To dump the new brand columns
+ 
+joblib.dump(X.columns.tolist(),'model_columns.pkl')
 
 
 
-print(f"Training Complete. Avg Error: ₹{error:.2f}")
-print("Brain saved to 'phone_model.pkl'")
+print("Successfully model trained with the Age , Original price and Brand !!!")
