@@ -52,4 +52,4 @@ joblib.dump(X.columns.tolist(),'model_columns.pkl')
 
 
 
-print("Successfully model trained with the Age , Original price and Brand !!!")
+print("Successfully model trained with the Age , Original price , Battery , RAM , storage, Condition score , and Brand !!!")
