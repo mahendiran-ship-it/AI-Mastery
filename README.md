@@ -1,28 +1,30 @@
-# 📱 AI Mobile Marketplace Predictor
+# ⚡ AXIOS AI: Pro Phone Valuation Engine
 
-A Machine Learning-powered web application that predicts the resale value of used mobile phones. This project was developed 100% on a smartphone using **Termux**, **Pydroid 3**, and **GitHub**.
+**Developed by Mahendiran**
+
+Axios AI is a Machine Learning web application built entirely on a mobile device. It utilizes a Linear Regression model to predict the resale value of smartphones with high precision by analyzing brand equity, hardware specifications, and physical usage metrics.
 
 ## 🚀 Live Demo
-[View the Live App Here] 
+Test the live app here: [https://axioustheai.streamlit.app/]
 
->>>  https://ai-mastery-tvqzgpjssk3nam97demdds.streamlit.app/  <<< 
+## ✨ Key Features
+* **Multi-Factor Analysis:** Automatically calculates value based on Age, Battery Health, RAM, Storage, and physical quality.
+* **Axios Premium Logic:** Includes a custom brand-equity multiplier for high-retention flagships like Apple and Samsung.
+* **Interactive Forecasting:** Automatically outputs an 8-year depreciation trend forecast graph.
+* **Mobile-First UI:** Custom HTML/CSS styling featuring a dark neon aesthetic optimized for mobile screens.
 
-## 🛠️ Features
-- **ML Prediction:** Uses a Scikit-Learn Linear Regression model.
-- **Smart Constraints:** Implemented `max(0, prediction)` logic to ensure prices never go negative for very old devices.
-- **Interactive UI:** Built with Streamlit for a smooth mobile/desktop user experience.
-- **Mobile-First Dev:** Built entirely without a PC.
+## 🛠️ Tech Stack
+* **Language:** Python
+* **Machine Learning:** Scikit-Learn (Linear Regression)
+* **Data Processing:** Pandas & Joblib
+* **Interface & Deployment:** Streamlit Cloud & GitHub
+* **Development Environment:** Termux
 
-## 🧰 Tech Stack
-- **Language:** Python
-- **AI Libraries:** Scikit-Learn, Pandas, Joblib
-- **Web Framework:** Streamlit
-- **Environment:** Termux (Git/Server), Pydroid 3 (IDE)
+## 📄 License
+This project is officially protected and licensed under the MIT License - see the LICENSE file for details.
 
+## Contact
 
----
+Email: mahendiran00k@gamil.com 
 
-### 📩 Connect
-- **LinkedIn:** [Mahendiran S](https://www.linkedin.com/in/mahendiran-s-25043840a)
-- **Email:** [mahendiran007s@gmail.com](mailto:mahendiran007s@gmail.com)
-- **GitHub:** [@mahendiran-ship-it](https://github.com/mahendiran-ship-it)
+LinkedIn:https://www.linkedin.com/in/mahendiran-s-25043840a?utm_source=share_via&utm_content=profile&utm_medium=member_android
