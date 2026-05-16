@@ -19,9 +19,6 @@ A Machine Learning-powered web application that predicts the resale value of use
 - **Web Framework:** Streamlit
 - **Environment:** Termux (Git/Server), Pydroid 3 (IDE)
 
-## 📈 Next Steps
-- Implement Polynomial Regression for non-linear price drops.
-- Add Brand-specific data (iPhone vs Android).
 
 ---
 
