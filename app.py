@@ -96,7 +96,7 @@ if st.button("RUN AXIOS VALUATION"):
     """, unsafe_allow_html=True)
     
     # Trend Analysis
-    st.write("### 📈 Depreciation Trend")
+    st.write("###  Depreciation Trend")
     trend_data = []
     for y in range(8):
         temp_df = input_df.copy()
